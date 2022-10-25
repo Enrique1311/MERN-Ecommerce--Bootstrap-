@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Play', sans-serif;
+	user-select: none;
+}
+:root {
+	--blue: rgb(10, 10, 252);
+	--green: rgb(3, 154, 89);
+	--red: rgb(249, 62, 62);
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
+	--dark-grey: rgb(74, 74, 102);
+	--light-grey: rgb(223, 223, 242);
+	--shadow: rgba(0, 0, 0, 0.4) 0px 8px 15px 2px;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
